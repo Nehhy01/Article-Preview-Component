@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
     <link
       rel="icon"
@@ -11,27 +10,48 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Article preview component</title>
   </head>
   <body>
-    <img src="./images/drawers.jpg" alt="" />
-    <div>
-      Shift the overall look and feel by adding these wonderful touches to
-      furniture in your home.
-    </div>
-    <p>
-      Ever been in a room and felt like something was missing? Perhaps it felt
-      slightly bare and uninviting. I’ve got some simple tips to help you make
-      any room feel complete.
-    </p>
-    <div>
-      <img src="./images/avatar-michelle.jpg" alt="Michelle Appleton" />
-      <div>
-        <p class="name">Michelle Appleton</p>
-        <p class="date">28 Jun 2020 Share</p>
+    <div class="container">
+      <img src="./images/drawers.jpg" alt="" />
+      <div class="card-body">
+        <div class="big-text">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home.
+        </div>
+        <p class="small-text">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+        <div class="footer">
+          <div class="author-details">
+            <img src="./images/avatar-michelle.jpg" alt="Michelle Appleton" />
+            <div class="author-name">
+              <p class="name">Michelle Appleton</p>
+              <p class="date">28 Jun 2020</p>
+            </div>
+          </div>
+          <div class="share-icon" id="btn-normal-state">
+            <img src="./images/icon-share.svg" alt="" />
+          </div>
+
+          <div class="share-options">
+            <div class="share-icons-active">
+              <span>SHARE</span>
+              <img src="./images/icon-facebook.svg" alt="" />
+              <img src="./images/icon-twitter.svg" alt="" />
+              <img src="./images/icon-pinterest.svg" alt="" />
+            </div>
+            <div class="share-icon" id="btn-click-state">
+              <img src="./images/icon-share.svg" alt="" />
+              
+            </div>
+          </div>
+        </div>
       </div>
-<img src="./images/icon-share.svg" alt="">
     </div>
   </body>
 </html>
