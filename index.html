@@ -11,6 +11,14 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Frontend Mentor | Article preview component</title>
   </head>
   <body>
@@ -41,17 +49,29 @@
           <div class="share-options">
             <div class="share-icons-active">
               <span>SHARE</span>
-              <img src="./images/icon-facebook.svg" alt="" />
-              <img src="./images/icon-twitter.svg" alt="" />
-              <img src="./images/icon-pinterest.svg" alt="" />
+              <a href="https://www.facebook.com" target="_blank" class="fb"
+                ><img src="./images/icon-facebook.svg" alt=""
+              /></a>
+              <a href="https://www.x.com" target="_blank" class="twitter"
+                ><img src="./images/icon-twitter.svg" alt=""
+              /></a>
+              <a
+                href="https://www.pinterest.com"
+                target="_blank"
+                class="pinstrest"
+                ><img src="./images/icon-pinterest.svg" alt=""
+              /></a>
             </div>
             <div class="share-icon" id="btn-click-state">
               <img src="./images/icon-share.svg" alt="" />
-              
             </div>
+            
           </div>
+          
         </div>
       </div>
     </div>
+
+    <script defer src="./script.js"></script>
   </body>
 </html>
