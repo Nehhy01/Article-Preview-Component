@@ -25,7 +25,7 @@ Users should be able to:
 ### Screenshot
 
 #### Mobile view
-![](./Mobile-image.png)
+![](./Joe-Joe++.png)
 
 #### Desktop View
 ![](./Desktop-image.png)
